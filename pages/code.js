@@ -29,6 +29,14 @@ const User = ({ user }) => {
 };
 
 
+<<<<<<< HEAD
+=======
+
+
+
+// setUsers([...users, values]);
+
+>>>>>>> upstream/master
 const UserListContainer = props => {
 	const [users, setUsers] = useState([]);
 
@@ -37,10 +45,23 @@ const UserListContainer = props => {
 	// const ref = useRef();
 	function onInputChangeHandle(values) {
 		console.log('onInputChangeHandle', values);
+<<<<<<< HEAD
 		setUsers([...users, values]);
 	}
 
 
+=======
+
+		// const newUser = [];
+		// for( const user in users) {
+		// 	newUser.push(user);
+		// }
+		// newUser.push(values);
+
+		setUsers([...users, values]);
+	}
+
+>>>>>>> upstream/master
 	return (
 		<>
 			<NewUserInput onSubmit={onInputChangeHandle} />
@@ -49,4 +70,8 @@ const UserListContainer = props => {
 	);
 };
 
+<<<<<<< HEAD
 export default UserListContainer;
+=======
+export default UserListContainer;
+>>>>>>> upstream/master
