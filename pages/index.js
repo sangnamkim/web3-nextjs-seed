@@ -29,18 +29,32 @@ export default () => (
 				</Link>
 			</li>
 			<li>
-				<Link href="/code">
-					<a>Code</a>
+				<Link href="/users">
+					<a>Add User to List</a>
 				</Link>
 			</li>
 <<<<<<< HEAD
 =======
 			<li>
 				<Link href="/klaytn">
-					<a>Klaytn</a>
+					<a>Get Klaytn Account </a>
 				</Link>
 			</li>
 
+<<<<<<< HEAD
+>>>>>>> upstream/master
+=======
+			<li>
+				<Link href="/cards">
+					<a>Mint Cards</a>
+				</Link>
+			</li>
+
+			<li>
+				<Link href="/MARFCard">
+					<a>MARFCard</a>
+				</Link>
+			</li>
 >>>>>>> upstream/master
 		</ul>
 	</>
