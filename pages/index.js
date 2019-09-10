@@ -53,14 +53,13 @@ export default () => (
 				</Link>
 			</li>
 
-<<<<<<< HEAD
-=======
+
 			<li>
 				<Link href="/getInitialProps">
 					<a>getInitialProps</a>
 				</Link>
 			</li>
->>>>>>> upstream/master
+
 		</ul>
 	</>
 );
