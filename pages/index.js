@@ -33,17 +33,14 @@ export default () => (
 					<a>Add User to List</a>
 				</Link>
 			</li>
-<<<<<<< HEAD
-=======
+
 			<li>
 				<Link href="/klaytn">
 					<a>Get Klaytn Account </a>
 				</Link>
 			</li>
 
-<<<<<<< HEAD
->>>>>>> upstream/master
-=======
+
 			<li>
 				<Link href="/cards">
 					<a>Mint Cards</a>
@@ -55,7 +52,7 @@ export default () => (
 					<a>MARFCard</a>
 				</Link>
 			</li>
->>>>>>> upstream/master
+
 		</ul>
 	</>
 );
